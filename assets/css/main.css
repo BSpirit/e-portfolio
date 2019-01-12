@@ -322,9 +322,9 @@ a:after {
 }
 
 .desc {
+    background-color: white;
     width: 100%;
 	padding-top: 60px;
-	background : white;
 }
 
 .desc p {
