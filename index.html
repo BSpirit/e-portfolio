@@ -248,70 +248,81 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 centered">
-					<h2>Compétences</h2>
+                    <h2>Compétences</h2>
+                    <ul class="nav nav-tabs" id="skills-tab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="web-tab" data-toggle="tab" role="tab" href="#web" aria-controls="web" aria-selected="true"> Web</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="soft-tab" data-toggle="tab" role="tab" href="#soft" aria-controls="soft" aria-selected="false">Soft skills</a>
+                        </li>
+                      </ul>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6">
-					<p>HTML</p>
-					<div class="skillContainer">
-					<div class="skills html">80%</div>
-					</div>
+            </div>
+            <br>
+            <div class="tab-content" id="skills-content">
+                <div class="tab-pane fade in active" id="web" role="tabpanel" aria-labelledby="web-tab">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>HTML</p>
+                            <div class="skillContainer">
+                            <div class="skills html">80%</div>
+                            </div>
 
-					<p>JavaScript</p>
-					<div class="skillContainer">
-					<div class="skills js">60%</div>
-					</div>
+                            <p>JavaScript</p>
+                            <div class="skillContainer">
+                            <div class="skills js">60%</div>
+                            </div>
 
-					<p>C/C++</p>
-					<div class="skillContainer">
-					<div class="skills c">90%</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<p>CSS</p>
-					<div class="skillContainer">
-					<div class="skills css">80%</div>
-					</div>
+                            <p>C/C++</p>
+                            <div class="skillContainer">
+                            <div class="skills c">90%</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>CSS</p>
+                            <div class="skillContainer">
+                            <div class="skills css">80%</div>
+                            </div>
 
-					<p>PHP</p>
-					<div class="skillContainer">
-					<div class="skills php">70%</div>
-					</div>
+                            <p>PHP</p>
+                            <div class="skillContainer">
+                            <div class="skills php">70%</div>
+                            </div>
 
-					<p>Java</p>
-					<div class="skillContainer">
-					<div class="skills java">90%</div>
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<p>Anglais</p>
-					<div class="skillContainer">
-					<div class="skills anglais">90%</div>
-					</div>					
-				</div>
-				<br>
-				<div class="col-lg-4 centered">
-					<i class="fa fa-comments-o fa-6" aria-hidden="true"></i>
-					<p> Sens de la communication / Gestion des conflits </p>
-				</div>
-				<div class="col-lg-4 centered">
-					<i class="fa fa-group fa-6" aria-hidden="true"></i>
-					<p> Capacité d'adaptation / Travail en équipe</p>
-				</div>
-				<div class="col-lg-4 centered">
-					<i class="fa fa-graduation-cap fa-6" aria-hidden="true"></i>
-					<p> Autonome / autodidacte</p>
-				</div>
-			</div><!--/.row -->
+                            <p>Java</p>
+                            <div class="skillContainer">
+                            <div class="skills java">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="soft" role="tabpanel" aria-labelledby="soft-tab">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>Anglais</p>
+                            <div class="skillContainer">
+                            <div class="skills anglais">90%</div>
+                            </div>					
+                        </div>
+                        <br>
+                        <div class="col-lg-4 centered">
+                            <i class="fa fa-comments-o fa-6" aria-hidden="true"></i>
+                            <p> Sens de la communication / Gestion des conflits </p>
+                        </div>
+                        <div class="col-lg-4 centered">
+                            <i class="fa fa-group fa-6" aria-hidden="true"></i>
+                            <p> Capacité d'adaptation / Travail en équipe</p>
+                        </div>
+                        <div class="col-lg-4 centered">
+                            <i class="fa fa-graduation-cap fa-6" aria-hidden="true"></i>
+                            <p> Autonome / autodidacte</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 			<br>
 		</div><!--/.container -->
-
-
-
-
-			
-
 	</div><!--/ #skillswrap -->
 
 	<section id="projet" name="projet">
@@ -404,7 +415,7 @@
 				</div>
 			</div><!--/.row -->
 		</div><!--/.container -->
-	</div><!--/ #footer -->
+    </div><!--/ #footer -->
 	
 
     <!-- Bootstrap core JavaScript
