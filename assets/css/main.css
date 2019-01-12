@@ -7,7 +7,6 @@
  */
 
 body {
-  	background: url(../img/header-bg.jpg) no-repeat center center fixed;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -162,6 +161,7 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
+    background: url(../img/header-bg.jpg) no-repeat center center fixed;
 	margin-top: 60px;
 	padding-top:140px;
 	text-align:center;
@@ -322,6 +322,7 @@ a:after {
 }
 
 .desc {
+    width: 100%;
 	padding-top: 60px;
 	background : white;
 }
