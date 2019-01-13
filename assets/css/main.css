@@ -266,13 +266,22 @@ a:after {
     color: white; /* White text color */
 }
 
-.html {width: 80%; background-color: #B7CC2D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 60%; background-color: #f44336;} /* Red */
-.php {width: 70%; background-color: #6A8894;} /* Dark Grey */
-.c {width: 90%; background-color: #D62BD0;} /* Dark Grey */
-.java {width: 90%; background-color: #4CAF50;} /* Dark Grey */
+.html {width: 75%; background-color: #B7CC2D;} /* Green */
+.css {width: 75%; background-color: #2196F3;} /* Blue */
+.angular {width: 75%; background-color: #f44336;} /* Red */
+.django {width: 75%; background-color: #4CAF50;} /* Dark Grey */
+.vaadin {width: 75%; background-color: #6A8894;} /* Dark Grey */
+
+.nso {width: 90%; background-color: #2196F3;} /* Dark Grey */
+.yang {width: 90%; background-color: #f44336;} /* Dark Grey */
+.python {width: 90%; background-color: #4CAF50;} /* Dark Grey */
+.java {width: 75%; background-color: #6A8894;} /* Dark Grey */
+
+.linux {width: 90%; background-color: #2196F3;} /* Dark Grey */
+.c {width: 90%; background-color: #6A8894;} /* Dark Grey */
+
 .anglais {width: 90%; background-color: #D672AA;} /* Dark Grey */
+
 #footwrap {
 	background: #2f2f2f;
 	padding-top: 50px;
